@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 
+import { Link } from "react-router-dom";
 import { Img, Text } from "components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
@@ -11,6 +12,8 @@ const NavBar = (props) => {
     setMenuOpen(!isMenuOpen);
   };
 
+  
+
 
   return (
     <>
@@ -19,27 +22,27 @@ const NavBar = (props) => {
           <div className="flex md:flex-row-reverse flex-row md:gap-5 items-center md:justify-between justify-start  w-full">
             <div className="flex md:flex-1 flex-row md:hidden items-center justify-between w-[15%] md:w-full">
               <Img
-                className="h-[25px] md:h-auto object-cover w-[25px]"
+                className="h-[25px] md:h-auto object-cover w-[25px] social-icon"
                 src="images/img_instagram1.png"
                 alt="instagramOne"
               />
               <Img
-                className="h-[25px] md:h-auto object-cover w-[25px]"
+                className="h-[25px] md:h-auto object-cover w-[25px] social-icon"
                 src="images/img_twitter1.png"
                 alt="twitterOne"
               />
               <Img
-                className="h-[25px] md:h-auto object-cover"
+                className="h-[25px] md:h-auto object-cover social-icon"
                 src="images/img_facebook1.png"
                 alt="facebookOne"
               />
               <Img
-                className="h-[25px] md:h-auto object-cover"
+                className="h-[25px] md:h-auto object-cover social-icon"
                 src="images/img_share1.png"
                 alt="shareOne"
               />
             </div>
-            <div onClick={toggleMenu} className="cursor-pointer lg:hidden">
+            <div onClick={toggleMenu} className="cursor-pointer social-icon lg:hidden">
               <FontAwesomeIcon
                 icon={faBars}
                 className="md:h-auto object-cover w-[25px]"
@@ -50,11 +53,14 @@ const NavBar = (props) => {
               src="images/img_logo.png"
               alt="logo"
             />
-            <Img
-              className="cursor-pointer h-[25px] md:h-auto md:ml-[0] ml-[414px] object-cover md:w-5 w-[25px]"
-              src="images/img_profile.png"
-              alt="profile"
-            />
+            <Link to="/members">
+              <Img
+                className="cursor-pointer social-icon h-[25px] md:h-auto md:ml-[0] ml-[414px] object-cover md:w-5 w-[25px]"
+                src="images/img_profile.png"
+                alt="profile"
+              />
+            </Link>
+            
           </div>
           <ul className="flex md:flex-col flex-row md:hidden items-start justify-center w-1/2 md:w-full common-row-list">
             <li>
@@ -66,7 +72,7 @@ const NavBar = (props) => {
             </li>
             <li>
               <a
-                href="/"
+                href="/about"
                 className="ml-[75px] text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900">
@@ -76,7 +82,7 @@ const NavBar = (props) => {
             </li>
             <li>
               <a
-                href="/"
+                href="/services"
                 className="ml-[76px] text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900">
@@ -86,7 +92,7 @@ const NavBar = (props) => {
             </li>
             <li>
               <a
-                href="/"
+                href="/contact"
                 className="ml-[76px] text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900">
@@ -96,7 +102,7 @@ const NavBar = (props) => {
             </li>
             <li>
               <a
-                href="/"
+                href="/the-team"
                 className="ml-[76px] text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900">
@@ -119,7 +125,7 @@ const NavBar = (props) => {
             </li>
             <li>
               <a
-                href="/"
+                href="/about"
                 className=" text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900" className="tracking-in-expand">
@@ -129,7 +135,7 @@ const NavBar = (props) => {
             </li>
             <li>
               <a
-                href="/"
+                href="/services"
                 className=" text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900" className="tracking-in-expand">
@@ -139,7 +145,7 @@ const NavBar = (props) => {
             </li>
             <li>
               <a
-                href="/"
+                href="/contact"
                 className=" text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900" className="tracking-in-expand">
@@ -149,7 +155,7 @@ const NavBar = (props) => {
             </li>
             <li>
               <a
-                href="/"
+                href="/the-team"
                 className=" text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900" className="tracking-in-expand">

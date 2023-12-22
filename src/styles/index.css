@@ -248,3 +248,13 @@ ul li a{
   transform-origin: bottom left;
 }
 
+/* social icons hover */
+
+.social-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* Adjust the scale factor as needed */
+}
+

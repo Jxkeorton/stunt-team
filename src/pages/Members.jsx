@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from 'Layout'
 
 const Members = () => {
   return (
-    <div>
+    <Layout>
       members area not yet completed
-    </div>
+    </Layout>
   )
 }
 

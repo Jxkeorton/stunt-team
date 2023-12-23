@@ -1,10 +1,11 @@
 import React from "react";
+import Layout from 'Layout'
 
 const NotFound = () => {
   return (
-    <div>
-      <h1>Opps! We ran out of code</h1>
-    </div>
+    <Layout>
+      <h1 className="my-50">Opps! This Page Does'nt exist</h1>
+    </Layout>
   );
 };
 

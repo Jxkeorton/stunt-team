@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from 'Layout'
 
 const Services = () => {
   return (
-    <div>
+    <Layout>
       Services Page Not yet created
-    </div>
+    </Layout>
   )
 }
 

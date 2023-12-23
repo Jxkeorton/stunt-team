@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from 'Layout'
 
 const TheTeam = () => {
   return (
-    <div>
+    <Layout>
       Team Page Not yet created
-    </div>
+    </Layout>
   )
 }
 

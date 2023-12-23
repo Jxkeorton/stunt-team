@@ -64,51 +64,51 @@ const NavBar = (props) => {
           </div>
           <ul className="flex md:flex-col flex-row md:hidden items-start justify-center w-1/2 md:w-full common-row-list">
             <li>
-              <a href="/" className="text-black-900 text-xl nav-link">
+              <Link to="/" className="text-black-900 text-xl nav-link">
                 <Text size="txtPlayfairDisplayRomanRegular20Black900" >
                   Home
                 </Text>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/about"
+              <Link
+                to="/about"
                 className="ml-[75px] text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900">
                   About
                 </Text>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/services"
+              <Link
+                to="/services"
                 className="ml-[76px] text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900">
                   Services
                 </Text>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="ml-[76px] text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900">
                   Contact
                 </Text>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/the-team"
+              <Link
+                to="/the-team"
                 className="ml-[76px] text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900">
                   The Team
                 </Text>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -117,51 +117,51 @@ const NavBar = (props) => {
         {isMenuOpen && (
           <ul className="flex flex-col gap-4 mt-3 items-center justify-center w-full lg:hidden">
             <li>
-              <a href="/" className="text-black-900 text-xl nav-link ">
+              <Link to="/" className="text-black-900 text-xl nav-link ">
                 <Text size="txtPlayfairDisplayRomanRegular20Black900" className="tracking-in-expand">
                   Home
                 </Text>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/about"
+              <Link
+                to="/about"
                 className=" text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900" className="tracking-in-expand">
                   About
                 </Text>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/services"
+              <Link
+                to="/services"
                 className=" text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900" className="tracking-in-expand">
                   Services
                 </Text>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className=" text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900" className="tracking-in-expand">
                   Contact
                 </Text>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/the-team"
+              <Link
+                to="/the-team"
                 className=" text-black-900 text-xl nav-link"
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900" className="tracking-in-expand">
                   The Team
                 </Text>
-              </a>
+              </Link>
             </li>
           </ul>
         )}

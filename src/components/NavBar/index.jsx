@@ -48,11 +48,12 @@ const NavBar = (props) => {
                 className="md:h-auto object-cover w-[25px]"
               />
             </div>
-            <Img
-              className="md:block md:flex-col h-auto md:h-auto md:items-center md:justify-center md:ml-[0] ml-[276px] object-cover md:text-center md:w-1/2 w-[31%]"
-              src="images/new_logo1.png"
-              alt="logo"
-            />
+            <Link to="/" className="md:block md:flex-col h-auto md:items-center md:justify-center md:ml-[0] ml-[276px] object-cover md:w-1/2 w-[31%]">
+              <Img
+                src="images/new_logo1.png"
+                alt="logo"
+              />
+            </Link>
             <Link to="/members">
               <Img
                 className="cursor-pointer social-icon h-[25px] md:h-auto md:ml-[0] ml-[414px] object-cover md:w-5 w-[25px]"

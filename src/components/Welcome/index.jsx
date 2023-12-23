@@ -35,9 +35,9 @@ const Welcome = (props) => {
           
             <Link 
               to="/contact"
-              className="md:cursor-pointer md:flex md:flex-col md:h-[109px] h-[66px] md:items-center md:justify-center mt-[42px] relative w-2/5"
+              className="md:cursor-pointer md:flex md:flex-col md:h-[109px] h-[66px] md:items-center md:justify-center mt-[42px] relative w-2/5 "
             >
-              <button className="bg-white-A700 md:flex h-[67px] md:items-center md:justify-center m-auto rounded-[15px] w-full" >
+              <button className="bg-white-A700 md:flex h-[67px] md:items-center md:justify-center m-auto rounded-[15px] w-full transition-all duration-300 ease-in-out hover:bg-yellow-500" >
                 <Text
                   className="absolute md:flex h-max inset-[0] md:items-center justify-center m-auto text-black-900 text-center text-xl w-max"
                   size="txtPlayfairDisplayRomanRegular20Black900"

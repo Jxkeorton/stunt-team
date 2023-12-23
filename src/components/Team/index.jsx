@@ -26,7 +26,7 @@ const Team = (props) => {
           </Text>
 
           <Link to="/the-team" className="md:cursor-pointer md:flex h-[66px] md:h-[89px] mt-[22px] relative w-[45%]">
-            <button className="bg-white-A700 md:flex h-[67px] m-auto rounded-[15px] w-full">
+            <button className="bg-white-A700 md:flex h-[67px] m-auto rounded-[15px] w-full transition-all duration-300 ease-in-out hover:bg-yellow-500">
             <Text
               className="absolute h-max inset-[0] justify-center m-auto text-black-900 text-center text-xl w-max"
               size="txtPlayfairDisplayRomanRegular20Black900"

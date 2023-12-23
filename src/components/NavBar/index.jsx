@@ -50,7 +50,7 @@ const NavBar = (props) => {
             </div>
             <Img
               className="md:block md:flex-col h-auto md:h-auto md:items-center md:justify-center md:ml-[0] ml-[276px] object-cover md:text-center md:w-1/2 w-[31%]"
-              src="images/img_logo.png"
+              src="images/new_logo1.png"
               alt="logo"
             />
             <Link to="/members">

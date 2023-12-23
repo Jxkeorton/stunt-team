@@ -1,5 +1,6 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
 import { Img, Text } from "components";
 
 const Team = (props) => {
@@ -23,15 +24,18 @@ const Team = (props) => {
             expertise to every project. Get to know the faces behind the jumps,
             the daredevils who make the impossible look effortless.
           </Text>
-          <div className="md:cursor-pointer md:flex h-[66px] md:h-[89px] mt-[22px] relative w-[45%]">
-            <div className="bg-white-A700 md:flex h-[67px] m-auto rounded-[15px] w-full"></div>
+
+          <Link to="/the-team" className="md:cursor-pointer md:flex h-[66px] md:h-[89px] mt-[22px] relative w-[45%]">
+            <button className="bg-white-A700 md:flex h-[67px] m-auto rounded-[15px] w-full">
             <Text
               className="absolute h-max inset-[0] justify-center m-auto text-black-900 text-center text-xl w-max"
               size="txtPlayfairDisplayRomanRegular20Black900"
             >
               Meet The Team
             </Text>
-          </div>
+            </button>
+          </Link>
+
         </div>
         <Img
           className="h-[538px] md:h-auto object-cover w-[538px] sm:w-full"

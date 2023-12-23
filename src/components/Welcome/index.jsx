@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Img, Text } from "components";
+import { Link } from "react-router-dom";
 
 const Welcome = (props) => {
   return (
@@ -31,15 +32,20 @@ const Welcome = (props) => {
           >
             Available for assignments Worldwide.
           </Text>
-          <div className="md:cursor-pointer md:flex md:flex-col md:h-[109px] h-[66px] md:items-center md:justify-center mt-[42px] relative w-2/5">
-            <div className="bg-white-A700 md:flex h-[67px] md:items-center md:justify-center m-auto rounded-[15px] w-full"></div>
-            <Text
-              className="absolute md:flex h-max inset-[0] md:items-center justify-center m-auto text-black-900 text-center text-xl w-max"
-              size="txtPlayfairDisplayRomanRegular20Black900"
+          
+            <Link 
+              to="/contact"
+              className="md:cursor-pointer md:flex md:flex-col md:h-[109px] h-[66px] md:items-center md:justify-center mt-[42px] relative w-2/5"
             >
-              Get In Touch !
-            </Text>
-          </div>
+              <button className="bg-white-A700 md:flex h-[67px] md:items-center md:justify-center m-auto rounded-[15px] w-full" >
+                <Text
+                  className="absolute md:flex h-max inset-[0] md:items-center justify-center m-auto text-black-900 text-center text-xl w-max"
+                  size="txtPlayfairDisplayRomanRegular20Black900"
+                >
+                  Get In Touch !
+                </Text>
+              </button>
+            </Link>
         </div>
       </div>
     </>

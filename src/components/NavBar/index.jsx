@@ -73,16 +73,6 @@ const NavBar = (props) => {
             </li>
             <li>
               <Link
-                to="/about"
-                className="ml-[75px] text-black-900 text-xl nav-link"
-              >
-                <Text size="txtPlayfairDisplayRomanRegular20Black900">
-                  About
-                </Text>
-              </Link>
-            </li>
-            <li>
-              <Link
                 to="/services"
                 className="ml-[76px] text-black-900 text-xl nav-link"
               >
@@ -121,16 +111,6 @@ const NavBar = (props) => {
               <Link to="/" className="text-black-900 text-xl nav-link ">
                 <Text size="txtPlayfairDisplayRomanRegular20Black900" className="tracking-in-expand">
                   Home
-                </Text>
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/about"
-                className=" text-black-900 text-xl nav-link"
-              >
-                <Text size="txtPlayfairDisplayRomanRegular20Black900" className="tracking-in-expand">
-                  About
                 </Text>
               </Link>
             </li>

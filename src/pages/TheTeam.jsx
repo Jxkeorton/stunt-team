@@ -10,25 +10,25 @@ const TheTeam = () => {
       name: 'Jake Orton',
       role: 'Owner',
       description: 'Passionate about all things BASE Jumping.',
-      image: "images/img_balloonswing.png"
+      image: "images/josh.png"
     },
     {
       name: "Josh Bregmen",
       role: 'Safety',
       description: 'Having opened around 150 new BASE jumping exits Josh has become a veteran in the sport of BASE when it comes to assessing jumps and possible hazards',
-      image: "images/img_skibase.png"
+      image: "images/josh.png"
     },
     {
       name: 'Ilko',
       role: 'Experienced Jumper',
       description: 'Passionate about all things BASE Jumping.',
-      image: "images/img_balloonswing.png"
+      image: "images/josh.png"
     },
     {
       name: "Rigger",
       role: 'Rigger',
       description: 'Our expert Rigger, Years of experience',
-      image: "images/img_skibase.png"
+      image: "images/josh.png"
     }
   ];
 
@@ -52,11 +52,12 @@ const TheTeam = () => {
 
       </div>
       
-      <div className=" px-[12%] md:px-[50px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center py-[18px] w-full">
+      <div className="px-[12%] md:px-[50px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center py-[18px] w-full items-center sm:flex sm:flex-col">
         {teamMembers.map((member, index) => (
-        <TeamMemberCard key={index} {...member} />
+          <TeamMemberCard key={index} {...member} />
         ))}
       </div>
+
     </Layout>
   )
 }

@@ -16,18 +16,18 @@ const TeamMemberCard = ({ name, role, description, image }) => {
         marginTop: '5px',
         flex: '0 0 auto',
         objectFit: 'cover', // Preserve aspect ratio by covering the container
-        height: '100%',
+        
       };
     
       return (
         <div style={cardStyle} className='flex flex-col md:pb-[30%] sm:pb-[5%] md:m-[5px]'>
             <Img
-                className="h-[80%]"
+                className="mx-5"
                 style={imageStyle}
                 src={image}
                 alt="motobase"
             />
-            <div className='md:ml-[10px]'>
+            <div className='mx-5'>
                 <h2 className="text-2xl font-bold sm:text-lg text-black-900 text-left">{name}</h2>
                 <p className="text-lg sm:text-sm text-black-900 text-left">{role}</p>
                 <p className="mt-2 text-black-900 text-left text-sm sm:text-sm">{description}</p>

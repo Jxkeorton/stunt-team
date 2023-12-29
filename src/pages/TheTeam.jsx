@@ -16,19 +16,19 @@ const TheTeam = () => {
       name: "Josh Bregmen",
       role: 'Safety',
       description: 'Having opened around 150 new BASE jumping exits Josh has become a veteran in the sport of BASE when it comes to assessing jumps and possible hazards.',
-      image: "images/josh.png"
+      image: "images/josh1.png"
     },
     {
       name: 'Ilko',
       role: 'Experienced Stunt performer',
       description: 'Ilko is an experienced stunt performer and BASE jumper. With his on-set experience and jumping knowledge he is a valuable asset to the team.',
-      image: "images/josh.png"
+      image: "images/josh1.png"
     },
     {
       name: "Rigger",
       role: 'Rigger',
       description: 'Our expert Rigger, Years of experience',
-      image: "images/josh.png"
+      image: "images/josh1.png"
     }
   ];
 

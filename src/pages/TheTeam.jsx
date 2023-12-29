@@ -8,20 +8,20 @@ const TheTeam = () => {
   const teamMembers = [
     {
       name: 'Jake Orton',
-      role: 'Owner',
-      description: 'Passionate about all things BASE Jumping.',
-      image: "images/josh.png"
+      role: 'Owner/Stunt performer',
+      description: 'With Jakes background in gymnastics & martial arts his aerial skills can be of great use when bringing daydreams to life. He also manages and coordinates the team.',
+      image: "images/jake.png"
     },
     {
       name: "Josh Bregmen",
       role: 'Safety',
-      description: 'Having opened around 150 new BASE jumping exits Josh has become a veteran in the sport of BASE when it comes to assessing jumps and possible hazards',
+      description: 'Having opened around 150 new BASE jumping exits Josh has become a veteran in the sport of BASE when it comes to assessing jumps and possible hazards.',
       image: "images/josh.png"
     },
     {
       name: 'Ilko',
-      role: 'Experienced Jumper',
-      description: 'Passionate about all things BASE Jumping.',
+      role: 'Experienced Stunt performer',
+      description: 'Ilko is an experienced stunt performer and BASE jumper. With his on-set experience and jumping knowledge he is a valuable asset to the team.',
       image: "images/josh.png"
     },
     {

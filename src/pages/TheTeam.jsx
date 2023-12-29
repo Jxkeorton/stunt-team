@@ -8,7 +8,7 @@ const TheTeam = () => {
   const teamMembers = [
     {
       name: 'Jake Orton',
-      role: 'Owner/Stunt performer',
+      role: 'Team Coordinator',
       description: 'With Jakes background in gymnastics & martial arts his aerial skills can be of great use when bringing daydreams to life. He also manages and coordinates the team.',
       image: "images/jake.png"
     },

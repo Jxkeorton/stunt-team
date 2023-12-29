@@ -45,7 +45,7 @@ const Contact = () => {
         <div className='flex w-full h-full md:justify-center'>
           <Img
             className="max-h-[900px] h-auto w-[80%] object-cover"
-            src="images/img_motobase.png"
+            src="images/contactImg.png"
             alt="motobase"
           />
         </div>

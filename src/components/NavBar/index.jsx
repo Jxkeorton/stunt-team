@@ -82,12 +82,9 @@ const NavBar = (props) => {
               </Link>
             </li>
             <li>
-              <Link
-                to="/contact"
-                className="ml-[76px] text-black-900 text-xl nav-link"
-              >
-                <Text size="txtPlayfairDisplayRomanRegular20Black900">
-                  Contact
+              <Link to="/portfolio" className="text-black-900 text-xl nav-link">
+                <Text size="txtPlayfairDisplayRomanRegular20Black900" >
+                  Portfolio
                 </Text>
               </Link>
             </li>
@@ -98,6 +95,16 @@ const NavBar = (props) => {
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900">
                   The Team
+                </Text>
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/contact"
+                className="ml-[76px] text-black-900 text-xl nav-link"
+              >
+                <Text size="txtPlayfairDisplayRomanRegular20Black900">
+                  Contact
                 </Text>
               </Link>
             </li>
@@ -125,12 +132,9 @@ const NavBar = (props) => {
               </Link>
             </li>
             <li>
-              <Link
-                to="/contact"
-                className=" text-black-900 text-xl nav-link"
-              >
+              <Link to="/portfolio" className="text-black-900 text-xl nav-link ">
                 <Text size="txtPlayfairDisplayRomanRegular20Black900" className="tracking-in-expand">
-                  Contact
+                  Portfolio
                 </Text>
               </Link>
             </li>
@@ -141,6 +145,16 @@ const NavBar = (props) => {
               >
                 <Text size="txtPlayfairDisplayRomanRegular20Black900" className="tracking-in-expand">
                   The Team
+                </Text>
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/contact"
+                className=" text-black-900 text-xl nav-link"
+              >
+                <Text size="txtPlayfairDisplayRomanRegular20Black900" className="tracking-in-expand">
+                  Contact
                 </Text>
               </Link>
             </li>

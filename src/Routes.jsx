@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NotFound from "pages/NotFound";
-import { Contact, Services, TheTeam, Members } from "pages";
+import { Contact, Services, TheTeam, Members, Portfolio } from "pages";
 
 const DesktopOne = React.lazy(() => import("pages/DesktopOne"));
 
@@ -16,6 +16,7 @@ const ProjectRoutes = () => {
           <Route path="/the-team" element={<TheTeam />} />
           <Route path="/members" element={<Members />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
       </Router>
     </React.Suspense>

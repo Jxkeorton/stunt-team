@@ -22,7 +22,13 @@ const TheTeam = () => {
       name: 'Ilko',
       role: 'Experienced Stunt performer',
       description: 'Ilko is an experienced stunt performer and BASE jumper. With his on-set experience and jumping knowledge he is a valuable asset to the team.',
-      image: "images/josh1.png"
+      image: "images/ilko.png"
+    },
+    {
+      name: "Luke Woodland",
+      role: 'BASE Jumper',
+      description: 'Luke is multi-talented along with his BASE jumping he has great skills on a motorcross bike and runs his own steel fabrications company',
+      image: "images/luke.png"
     },
     {
       name: "Rigger",
